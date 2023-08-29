@@ -47,7 +47,8 @@ public class Practice {
     // Display all the countries
     public static List<Country> getAllCountries() {
         //TODO Implement the method
-        return new ArrayList<>();
+        return countryService.readAll();
+        //return new ArrayList<>();
     }
 
     // Display all the departments
